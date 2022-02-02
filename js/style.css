@@ -1,0 +1,24 @@
+* {
+  text-align: center;
+  font-family: "Rowdies", cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.country {
+  border: 3px solid rgb(82, 81, 81);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(92, 91, 91);
+  color: rgb(240, 235, 235);
+}
+.country img {
+  width: 200px;
+  border-radius: 5px;
+}
